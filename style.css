@@ -31,3 +31,132 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active  {
+    background-color:#25133d;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #48418e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 30px;
+}
+.super {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* ---header s obrazky-- */
+
+header {
+    /* display: flex; */
+    position: relative;
+    background-image: url(images/pozadi.jpg);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 90px;
+    
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.telefon {
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+}
+
+.tlacitka {
+    display: inline-block;
+    padding: 30px 0;
+    
+}
+
+.tlacitka a:hover,
+.tlacitka a:focus,
+.tlacitka a:active  {
+    background-color:#48418e;
+}
+
+.stahnout {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-align: center;
+    margin-right: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+.info {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+
+
+
+/* ---main s ikonami--- */
+
+
+.loga {
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+
+.nadpisy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.texty {
+    display:flex;
+    flex: 0 0 calc(100/3);
+}
+
+/* ----- */
+
+footer {
+    display: block;
+    background-color:  #48418e;
+}
+.footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: white;
+}
+
